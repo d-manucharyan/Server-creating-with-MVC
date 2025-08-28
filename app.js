@@ -7,10 +7,12 @@ var logger = require('morgan');
 const { editRouter, homeRouter, authRouter, mainRouter, userRouter, delRouter } = require('./routes')
 
 const { UsersService } = require('./services/UsersService');
+const { DelService } = require('./services/DelService');
 
 var app = express();
 app.locals.services = {
-  usersService: new UsersService()
+  usersService: new UsersService(),
+  delService: new DelService()
 }
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
