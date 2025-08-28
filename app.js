@@ -4,15 +4,9 @@ var path = require('path');
 var cookieParser = require('cookie-parser');
 var logger = require('morgan');
 
-const { editRouter } = require('./routes/edit');
-const homeRouter = require('./routes/home');
-const authRouter = require('./routes/auth');
-const mainRouter = require('./routes/main');
-const userRouter = require('./routes/users');
-const delRouter = require('./routes/delete');
+const { editRouter, homeRouter, authRouter, mainRouter, userRouter, delRouter } = require('./routes')
 
 const { UsersService } = require('./services/UsersService');
-
 
 var app = express();
 app.locals.services = {

@@ -5,7 +5,7 @@ const fs = require('fs').promises
 const bcrypt = require('bcryptjs')
 const { editSchema } = require('../schema/editSchema')
 
-const {readData, checkEmailEdit} = require('../middleware')
+const { readData, checkEmailEdit } = require('../middleware')
 const { EditController } = require('../controller/EditController')
 const editController = new EditController()
 
@@ -34,4 +34,4 @@ editRouter.post('/edit/:id', readData, checkEmailEdit, async (req, res) => {
     res.redirect(`/main/${user.id}`)
 })
 
-module.exports = { editRouter }
+module.exports = editRouter 

@@ -8,7 +8,6 @@ const bcrypt = require('bcryptjs');
 const { schema } = require('../schema');
 const {readData, checkEmail, nameUpperCase, checkLogin} = require('../middleware');
 const { AuthController } = require('../controller/AuthController');
-
 const authController = new AuthController()
 
 // auth gets 
