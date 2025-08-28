@@ -1,0 +1,65 @@
+[
+  {
+    "name": "Alice Johnson",
+    "age": 28,
+    "email": "alice.johnson@example.com",
+    "password": "$2b$10$XwJz1l87Q.Slzspv5.RQYOq1UpM637uuZV.suuzLe.PJ3o0N23gMq",
+    "id": 1756252850688
+  },
+  {
+    "name": "Bob Smith",
+    "age": 34,
+    "email": "bob.smith@example.com",
+    "password": "$2b$10$ddOEv2obLK6Bx0KZcZiUlucL7z7VFwZCemvTXUBmlihx/WCGCv0yi",
+    "id": 1756252946198
+  },
+  {
+    "name": "Charlie Davis",
+    "age": 22,
+    "email": "charlie.davis@example.com",
+    "password": "$2b$10$wYJaAq92g7oruCct5PSUQ.cPIRX.GX5SPt4cG4rZxIrZ4HcoYDveK",
+    "id": 1756252973810
+  },
+  {
+    "name": "John Smith",
+    "age": 42,
+    "email": "john.smith@gmail.com",
+    "password": "$2b$10$CsJCzRxM4oxktgkMUT/wluWcSzF4R.Ul2P/WlpIvfJo8EiD5LgZ9y",
+    "id": 1756364501805
+  },
+  {
+    "name": "Ervin Howell",
+    "age": 18,
+    "email": "sincere@gmail.com",
+    "password": "$2b$10$fSig4j.vWaxpwaLn962zeeZIx4QJ.W1dDgn.W/k.mEQKbYaPGQFYS",
+    "id": 1756364734236
+  },
+  {
+    "name": "Clementine Bauch",
+    "age": 27,
+    "email": "nathan@gmail.com",
+    "password": "$2b$10$4iqWp1P1cg46Mwer9DF/6epI8a2oExJM0f7woh///NiJ0/H0khklO",
+    "id": 1756364859554
+  },
+  {
+    "name": "Chelsey Dietrich",
+    "age": 32,
+    "email": "lucio_hettinger@gmail.com",
+    "password": "$2b$10$g54qtN0cBk/PS8u27aLUBetC8eKjkgHXcg0oxqkuOD/YII3sfPLoS",
+    "id": 1756364906609
+  },
+  {
+    "name": "Willy Wonka",
+    "age": 36,
+    "email": "willy.wonka@mail.ru",
+    "password": "$2b$10$ieT8elxwaHohLdjPMgnSNO5eZeGesNDsREOGmyqUHIwpSUtEjvTye",
+    "id": 1756372576287
+  },
+  {
+    "name": "David Manucharyan",
+    "age": 25,
+    "email": "manucharyandavid@gmail.com",
+    "password": "$2b$10$MAJ3QL5O.4Pdf7Ziso/.qOltx7IlrsD8UQYqB460swuARNuh02UTm",
+    "id": 1756374370750
+  }
+]

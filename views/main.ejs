@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome</title>
+    <link rel="stylesheet" href="/stylesheets/main.css">
+    <style>
+
+    </style>
+</head>
+
+<body>
+    <div class="welcome-container">
+        <h1>Welcome!</h1>
+        <p>You have successfully logged in.</p>
+        <a href="/user/edit/<%= user.id %>">Edit Data</a>
+        <form action="/main/<%=user.id %>" method="post" class="remBut">
+            <button>Remove account</button>
+        </form>
+
+    </div>
+</body>
+
+</html>

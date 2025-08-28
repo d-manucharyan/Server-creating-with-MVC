@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Edit Data</title>
+  <link rel="stylesheet" href="/stylesheets/edit.css">
+</head>
+
+<body>
+  <h1>Edit Data</h1>
+
+  <form method="post" action="/user/edit/<%= user.id %>">
+    <input type="text" name="name" value="<%= user.name %>" placeholder="Name" required>
+    <input type="email" name="email" value="<%= user.email %>" placeholder="Email" required>
+    <input type="password" name="password" placeholder="Password" required>
+    <input type="number" name="age" value="<%= user.age %>" placeholder="Age" required>
+    <button type="submit">Save Changes</button>
+  </form>
+</body>
+
+</html>
