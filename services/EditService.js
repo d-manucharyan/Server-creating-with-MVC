@@ -5,9 +5,6 @@ const bcrypt = require('bcryptjs');
 class EditService {
     async postEdit(users, id, validated) {
         const user = users.find(u => u.id == id)
-        if (!user) {
-            return null
-        }
         user.name = validated.name
         user.email = validated.email
         user.age = validated.age

@@ -10,7 +10,7 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: linear-gradient(135deg, #74b9ff, #a29bfe);
+    background: linear-gradient(135deg, #141773, #f1b4b4);
 }
 
 form {
@@ -27,7 +27,7 @@ form {
 
 h1 {
     text-align: center;
-    color: #2d3436;
+    color: #000000;
 }
 
 form input {

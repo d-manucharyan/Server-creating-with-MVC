@@ -56,10 +56,17 @@
     "id": 1756372576287
   },
   {
-    "name": "David Manucharyan",
+    "name": "Brad Pitt",
+    "age": 61,
+    "email": "bradpitt1963@mail.ru",
+    "password": "$2b$10$Qfbh9mTIrl3xuUJvHVf48OV2wXmnEdf3o.Q5gRVRB/7gRVwu9F8re",
+    "id": 1756485710867
+  },
+  {
+    "name": "David  Manucharyan",
     "age": 25,
     "email": "manucharyandavid@gmail.com",
-    "password": "$2b$10$oyXMkG9DKcq62GRu5It90e32qIIdhcbLfZJ2.oorAXZ4bCMw9JlPq",
-    "id": 1756452397504
+    "password": "$2b$10$F7u..YC6PjhqRc5wFiOkEeOB8aYNazpxrLq68hHey4jHziHArAicC",
+    "id": 1756490541538
   }
 ]

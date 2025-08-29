@@ -9,13 +9,15 @@ const { editRouter, homeRouter, authRouter, mainRouter, userRouter, delRouter } 
 const { UsersService } = require('./services/UsersService');
 const { DelService } = require('./services/DelService');
 const { EditService } = require('./services/EditService');
+const { AuthService } = require('./services/AuthService');
 
 
 var app = express();
 app.locals.services = {
   usersService: new UsersService(),
   delService: new DelService(),
-  ediitService: new EditService()
+  ediitService: new EditService(),
+  authService: new AuthService()
 }
 
 // view engine setup

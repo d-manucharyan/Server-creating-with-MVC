@@ -1,23 +1,42 @@
-body {
-    font-family: Arial, sans-serif;
-    background: #f0f4f8;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+* {
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(135deg, #141773, #f1b4b4);
+}
+
+.site-header {
+    background: #222;
+    padding: 15px 30px;
+}
+
+.site-logo {
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: color 0.3s;
 }
 
 .welcome-container {
-    background: #ffffff;
-    padding: 40px 60px;
+    background: #fff;
+    padding: 70px 60px;
     border-radius: 12px;
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
     text-align: center;
+    width: 400px;
+    margin: 80px auto;
 }
 
 .welcome-container h1 {
-    color: #333;
+    color: #2d3436;
     margin-bottom: 20px;
 }
 
@@ -29,14 +48,15 @@ body {
 .welcome-container a {
     text-decoration: none;
     color: #fff;
-    background-color: #007BFF;
+    background-color: #0984e3;
     padding: 12px 24px;
     border-radius: 6px;
-    transition: background-color 0.3s ease;
+    transition: background-color 0.3s;
+    display: inline-block;
 }
 
 .welcome-container a:hover {
-    background-color: #0056b3;
+    background-color: #74b9ff;
 }
 
 .remBut button {
@@ -45,11 +65,12 @@ body {
     background-color: #323537;
     padding: 12px 24px;
     border-radius: 6px;
-    transition: background-color 0.3s ease;
+    transition: background-color 0.3s;
     cursor: pointer;
     border: none;
-    &:hover {
-        background-color: #000000;
-        color: #ffffff;
-    }
+}
+
+.remBut button:hover {
+    background-color: #000000;
+    color: #ffffff;
 }
