@@ -13,7 +13,7 @@ const editSchema = Joi.object({
     password: Joi
         .string()
         .pattern(new RegExp('^(?=.*?[A-Z])(?=.*?[a-z])(?=.*?[0-9])(?=.*?[#?!@$%^&*-.]).{8,}$'))
-        .optional(),
+        .required(),
     repeat_password: Joi.ref('password'),
     email: Joi
         .string()

@@ -8,12 +8,16 @@ const { editRouter, homeRouter, authRouter, mainRouter, userRouter, delRouter } 
 
 const { UsersService } = require('./services/UsersService');
 const { DelService } = require('./services/DelService');
+const { EditService } = require('./services/EditService');
+
 
 var app = express();
 app.locals.services = {
   usersService: new UsersService(),
-  delService: new DelService()
+  delService: new DelService(),
+  ediitService: new EditService()
 }
+
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'ejs');
