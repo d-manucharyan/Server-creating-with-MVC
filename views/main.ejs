@@ -16,7 +16,7 @@
         <a href="/" class="site-logo">Home</a>
     </header>
     <div class="welcome-container">
-        <h1>Welcome!</h1>
+        <h1>Welcome <%=user.name %>!</h1>
         <p>You have successfully logged in.</p>
         <a href="/user/edit/<%= user.id %>">Edit Data</a>
         <form action="/main/<%=user.id %>" method="post" class="remBut">

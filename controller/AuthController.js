@@ -20,9 +20,6 @@ class AuthController {
     async postLogin(req, res, next) {
         const { users } = res.locals
         const user = await req.app.locals.services.authService.postLogin(users, req.body)
-        if (!user) {
-            return res.status(401).send("User not found")
-        }
         res.redirect(`/main/${user.id}`)
     }
 }

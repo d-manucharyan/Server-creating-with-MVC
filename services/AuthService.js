@@ -13,7 +13,7 @@ class AuthService {
         return users
     }
     async postLogin(users, body) {
-        const user = users.find(u => u.email == body.email)
+        const user = users.find(u => u.email === body.email)
         return user
     }
 }
